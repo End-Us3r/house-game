@@ -1,4 +1,4 @@
-This code defines a simple text-based game where the player navigates through different rooms in a house. The game consists of two main classes: "Room" and "Game".
+# This code defines a simple text-based game where the player navigates through different rooms in a house. The game consists of two main classes: "Room" and "Game".
 
 The Room class has several fields (variables) such as 'id', 'name', 'description', and several other integers that represent the different directions a player can move in. The Room class also has two constructors: one default constructor, and one constructor that takes in an 'id', 'name', and 'description' as input. The Room class also has a method called 'describe' which prints the name and description of the room.
 
