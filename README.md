@@ -1,1 +1,7 @@
-# house-game
+This code defines a simple text-based game where the player navigates through different rooms in a house. The game consists of two main classes: "Room" and "Game".
+
+The Room class has several fields (variables) such as 'id', 'name', 'description', and several other integers that represent the different directions a player can move in. The Room class also has two constructors: one default constructor, and one constructor that takes in an 'id', 'name', and 'description' as input. The Room class also has a method called 'describe' which prints the name and description of the room.
+
+The Game class has a vector of Room objects called 'roomList' and an integer 'playerLocation' that represents the current location of the player in the game. The Game class also has several constants that represent the different rooms in the game, such as 'LIVING_ROOM', 'DINING_ROOM', 'KITCHEN', etc. The Game class has a default constructor that initializes the 'roomList' vector and sets the player's starting location to the 'LIVING_ROOM'. The Game class also has a 'setup' method that creates Room objects, sets their properties, and adds them to the 'roomList' vector. The Game class also has a 'tour' method that simulates a tour of the house, where the player navigates through different rooms, and the program prints the name and description of each room as the player moves.
+
+In the main function, an instance of the Game class is created, the 'setup' method is called, and the 'tour' method is called. The program then prints "Game tour finished" and exits.
